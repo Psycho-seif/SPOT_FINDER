@@ -1,0 +1,25 @@
+.chart-container {
+  width: 400px;
+  margin: 50px auto;
+}
+#chart1, #chart2 {
+  display: none;
+}
+#finalResult {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+#userMessage {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  #chartContainer {
+    width: 90%; /* Adjust width for smaller screens */
+    height: 500px; /* Maintain height */
+  }
+}
