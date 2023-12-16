@@ -24,6 +24,7 @@ gsap.fromTo(
 );
 
 setTimeout(() => {
-  // Redirect to your main website after loading is complete
-  window.location.href = './Main/html/auth-login-basic.html';
-}, 5000); 
+  // Redirect to the specified URL after loading is complete
+  window.location.href = 'https://psycho-seif.github.io/main/';
+}, 5000);
+
