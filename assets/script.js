@@ -25,6 +25,6 @@ gsap.fromTo(
 
 setTimeout(() => {
   // Redirect to the specified URL after loading is complete
-  window.location.href = 'https://psycho-seif.github.io/main/';
+  window.location.href = 'https://psycho-seif.github.io/Login/';
 }, 5000);
 
